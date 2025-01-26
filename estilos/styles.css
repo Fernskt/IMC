@@ -1,0 +1,63 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 30px;
+    align-items: center;
+    background-color: rgb(79, 79, 79);
+    color: white;
+    font-family: "Ubuntu", serif;
+}
+.principal{
+    width: 300px;
+}
+
+.formulario{
+    width: 300px;
+    border: solid 1px black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #252531;  
+}
+
+.formGroup{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.botones{
+    display: flex;
+    justify-content: flex-end;
+    gap: 28px;
+}
+
+.boton{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.boton2{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    background-color: #252531;
+}
+.pesoNormal{
+    color: rgb(129, 222, 129);
+    font-size: 20px;
+}
+.pesoBajo{
+    color: rgb(255, 187, 0);
+    font-size: 20px;
+}
+.sobrepeso{
+    color: rgb(249, 138, 98);
+    font-size: 20px;
+}
+.obeso{
+    color: rgb(255, 100, 100);
+    font-size: 20px;
+}

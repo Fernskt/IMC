@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <title>IMC</title>
+</head>
+
+<body class="contenedor">
+    <div class="principal">
+
+   
+    <form class="formulario">
+        <h2 class="titulo">Calcula tu IMC</h2>
+        <div class="formGroup">
+            <label for="Altura">¿Cuánto mides?</label>
+            <input class="inputAltura" type="number" placeholder="valor en cm." min="1" required>
+        </div>
+
+        <div class="formGroup">
+            <label for="Peso">¿Cuál es tu peso?</label>
+            <input class="inputPeso" type="number" placeholder="valor en kg." min="1" required>
+        </div>
+        <div class="botones">
+            <button class="boton2" id="reiniciar" type="button">Reiniciar</button>
+            <button class="boton" id="calcular" type="button">Calcular</button>
+        </div>
+       
+    </form>
+    <div class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoIMC"></div>
+    </div>
+</div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
